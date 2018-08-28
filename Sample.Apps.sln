@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.ProblemsSolving", "App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.DSAlgorithms", "Apps.DSAlgorithms\Apps.DSAlgorithms.csproj", "{53041F62-AE97-4783-8F85-826984440D3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.SortingAlgorithms", "Apps.SortingAlgorithms\Apps.SortingAlgorithms.csproj", "{87B13104-9646-494A-814C-30A3C7C7B764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{53041F62-AE97-4783-8F85-826984440D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53041F62-AE97-4783-8F85-826984440D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53041F62-AE97-4783-8F85-826984440D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B13104-9646-494A-814C-30A3C7C7B764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B13104-9646-494A-814C-30A3C7C7B764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B13104-9646-494A-814C-30A3C7C7B764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B13104-9646-494A-814C-30A3C7C7B764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
