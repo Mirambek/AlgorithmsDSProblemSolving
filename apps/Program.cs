@@ -1,4 +1,5 @@
 ﻿using Apps.Common;
+using Apps.CSharpFeatures.Evaluation;
 using Apps.DSAlgorithms;
 using Apps.ProblemsSolving;
 using Apps.SortingAlgorithms;
@@ -11,9 +12,16 @@ namespace ConsoleApp3
   {
     static void Main(string[] args)
     {
+      EvaluateCSharpFeautures();
       SortingAlgorithms();
       DSAlgorithmsRun();
       ProblemSolvingP1();
+    }
+
+    private static void EvaluateCSharpFeautures()
+    {
+      IApp ptc = new ParallelTaskComparison();
+      ptc.Run(String.Empty);
     }
 
     private static void SortingAlgorithms()
