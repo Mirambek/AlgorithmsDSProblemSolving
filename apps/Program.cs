@@ -12,10 +12,22 @@ namespace ConsoleApp3
   {
     static void Main(string[] args)
     {
-      EvaluateCSharpFeautures();
-      SortingAlgorithms();
-      DSAlgorithmsRun();
-      ProblemSolvingP1();
+      Char typedSym = 's';// (Char)Console.Read();
+      switch (typedSym.ToString().ToUpper())
+      {
+        case "C":
+          EvaluateCSharpFeautures();
+          break;
+        case "S":
+          SortingAlgorithms();
+          break;
+        case "D":
+          DSAlgorithmsRun();
+          break;
+        default:
+          ProblemSolvingP1();
+          break;
+      }
     }
 
     private static void EvaluateCSharpFeautures()
