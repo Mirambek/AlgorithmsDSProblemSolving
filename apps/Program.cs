@@ -4,6 +4,7 @@ using Apps.DSAlgorithms;
 using Apps.ProblemsSolving;
 using Apps.SortingAlgorithms;
 using System;
+using System.Diagnostics;
 using System.Linq;
 
 namespace ConsoleApp3
@@ -38,9 +39,22 @@ namespace ConsoleApp3
 
     private static void SortingAlgorithms()
     {
+      var inputArr = new int[5] { 2, 3, 1, 5, 6 };
+      #region OrderBy Range Problem using MergeSort
+      Stopwatch stopwatch = new Stopwatch();
+      stopwatch.Start();
+      SortingProblems sortingProblems = new SortingProblems();
+      Console.WriteLine("Given: {0}", inputArr.ToString());
+      
+      int i = 1, j = 3;
+      sortingProblems.SortSelectedRanges<int[]>(inputArr, i, j);
+      Console.WriteLine("Sorted: {0} i:{1}, j:{2}", inputArr.ToString(),i,j);
+      stopwatch.Stop();      
+      Console.WriteLine("RunTime " + stopwatch.ElapsedMilliseconds);
+      #endregion
       #region Merge sorting
       MergeSorting ms = new MergeSorting();
-      var inputArr = new int[5] { 2, 3, 1, 5, 6 };
+      
       Console.WriteLine("Input Arrays:");
       inputArr.All(a => { Console.Write("{0} ", a); return true; });
       Console.WriteLine();
