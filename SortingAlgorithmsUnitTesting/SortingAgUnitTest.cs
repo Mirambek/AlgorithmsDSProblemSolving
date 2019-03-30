@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace SortingAlgorithmsUnitTesting
 {
   [TestClass]
-  public class SorginAgUnitTest
+  public class SortingAgUnitTest
   {
     [TestMethod]
     public void PassingSortingByRange()

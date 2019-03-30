@@ -13,7 +13,7 @@ namespace ConsoleApp3
   {
     static void Main(string[] args)
     {
-      Char typedSym = 's';// (Char)Console.Read();
+      Char typedSym = 'p';// (Char)Console.Read();
       switch (typedSym.ToString().ToUpper())
       {
         case "C":
@@ -80,6 +80,12 @@ namespace ConsoleApp3
 
     private static void ProblemSolvingP1()
     {
+      #region MinimumSquaredSteps
+      var minimumSquaredSteps = new MinimumSquaredSteps();
+      minimumSquaredSteps.Run<String>("9");
+      #endregion
+
+
       #region Permutation List
       RunGetPermutationList("12345");
       #endregion

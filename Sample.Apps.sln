@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apps.CSharpFeatures.Evaluat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithmsUnitTesting", "SortingAlgorithmsUnitTesting\SortingAlgorithmsUnitTesting.csproj", "{AEEBF1F5-4744-4D7C-9A6B-31C2FE0C05EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormThreadingTest", "FormThreadingTest\FormThreadingTest.csproj", "{13735FD1-DDD7-4CB8-9839-323A0F88BAE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AEEBF1F5-4744-4D7C-9A6B-31C2FE0C05EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEEBF1F5-4744-4D7C-9A6B-31C2FE0C05EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEEBF1F5-4744-4D7C-9A6B-31C2FE0C05EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13735FD1-DDD7-4CB8-9839-323A0F88BAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13735FD1-DDD7-4CB8-9839-323A0F88BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13735FD1-DDD7-4CB8-9839-323A0F88BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13735FD1-DDD7-4CB8-9839-323A0F88BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
