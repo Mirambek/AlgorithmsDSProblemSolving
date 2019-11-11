@@ -51,10 +51,11 @@ public class MinimumSquaredSteps : IApp
         else
         {
           int squareMinus = getMinSquares(n - temp);
-          res = Math.Min(res, 1 + getMinSquares(n - squareMinus));
+          res = Math.Min(res, 1 +  squareMinus);
           Console.WriteLine("n-temp={0}-{1} squareMinus={2} res={3}", n, temp, squareMinus, res);
         }
       }
+      Console.ReadKey();
       Console.WriteLine("Ending n={0}--------------", n);
       Console.WriteLine();
       return res;

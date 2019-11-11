@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="FrogNumWays.cs" />
     <Compile Include="LargestSubSum0.cs" />
+    <Compile Include="MinimumRootSquare.cs" />
     <Compile Include="MinimumSquaredSteps.cs" />
     <Compile Include="NumWays.cs" />
     <Compile Include="Permutations.cs" />
